@@ -1,0 +1,306 @@
+/* Layout CSS */
+
+body
+{
+	margin-top: 20px;
+	padding: 0;
+	background-image:url(images/background1.jpg);
+}
+
+.header
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	width: 750px;
+}
+
+
+.logOutBox
+{
+	border-radius: 10px;
+	box-shadow:0 0 5px 5px #888888;
+	background-color:#243d63;
+	width:750px;
+	height:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#FFFFFF;
+}
+
+.logOutBox a
+{
+	float:right;
+	text-decoration:none;
+	margin-top:6px;
+	margin-right:10px;
+	color:#FFF;
+}
+
+.banner
+{
+	height: 170px;
+	background-image: url(../images/dmellor_clinic.jpg);
+}
+
+
+#bannerTitle
+{
+	display: block;
+	/*width: 486px;*/
+	height: 25px;
+	position: relative;
+	top: 103px;
+	margin: 0;
+	padding: 10px;
+	/*z-index: 100;*/
+}
+
+#topNav
+{
+	height:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	width: 660px;
+}
+
+#topNav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topNav ul li
+{
+	margin-top: 5px;
+	margin-left: 50px;
+	margin-right: -2px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.wrapper
+{
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+	overflow: hidden;
+	white-space: nowrap;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px #888;
+	box-shadow: 0 0 5px 5px #888;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	border-radius: 10px;
+}
+
+.pageBody
+{
+	margin: 0;
+	padding: 0;
+	width: 750px;
+	overflow: visible;
+
+}
+
+.contentWrapper
+{
+	margin: 0;
+	padding: 0;
+	width: 750px;
+/* 	float: left; */
+}
+
+.content p, .content ul {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+}
+
+.content
+{
+	white-space: normal;
+	letter-spacing:0.05em;
+	word-spacing:0.08em;
+	width:715px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+/*hr{
+	border: 0;
+	color: #000000;
+	background-color: #000000;
+	height: 1px;
+	width: 80%;
+	text-align: center;
+}*/
+
+
+footer
+{
+    clear:both;
+    display:block;
+    overflow:hidden;
+    font-size:0.9em;
+    color:#000000;
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+	/*border-top:2px solid #999;*/
+}
+
+
+footer nav ul
+{
+    /*float:left;*/
+    margin-bottom: 5px;
+    padding:0;
+    background:#ffffff;	
+    overflow: hidden;
+/*	margin-left:4.5em;*/
+}
+
+
+footer nav ul li
+{
+    float:left;
+    list-style:none;
+    padding-right:0.5em;
+    padding-left:0.5em;
+    border-right:#0085cb solid 2px;
+}
+
+.loginBox
+{
+    width: 315px;
+    /*height: 25px;*/
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color:#243d63;
+    color: #ffffff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.button {
+    background-color:#243d63;
+    color: #ffffff;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    margin: 10px;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+table.table1{
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+
+.table1 td{
+    padding:5px;
+    text-align:center;
+    background-color:#FFFFFF;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#000000;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.table1 th{
+    padding:5px;
+    color:#FFFFFF;
+    text-shadow:1px 1px 1px #000000;
+    border:1px solid #243d63;
+    border-bottom:3px solid #243d63;
+    background-color:#243d63;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.noBullets{
+	list-style:none;
+	padding-left:0px;
+}
+
+ul li.buttonList{
+	margin:10px;	
+	-webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color:#243d63;
+    color: #ffffff;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    width: 155px;
+    height: 20px;
+    padding: 5px 5px 5px 20px;
+}
+
+li.buttonList a{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+dl.contact dt
+{   
+	margin-left:10px;
+	font-weight: bold;
+	font-size: large;
+}
+
+dl.contact dd
+{    
+ 	margin-left:10px;
+}
+
+.floatLeft
+{
+	float:left;
+	margin-top:20px;
+	margin-left:10px;
+	margin-bottom:20px;
+}
+
+.wrap
+{
+	width:100%; 
+	float:left; 
+}

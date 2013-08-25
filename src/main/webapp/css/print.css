@@ -1,0 +1,60 @@
+/* CSS Document */
+
+body
+{
+	background-color: white;
+	background-image: none;
+	color: black;
+}
+
+iframe
+{
+	display: none;
+}
+
+#dropshadow
+{
+	width: 100%;
+	background-image: none;
+	background-color: white;
+}
+
+.wrapper
+{
+	width: 100%;
+}
+
+.header, .collegeBar, .banner, #topNav
+{
+	display: none;
+}
+
+.pageBody
+{
+	width: 100%;
+}
+
+.leftColumn
+{
+	display: none;
+}
+
+.contentWrapper
+{
+	width: 100%;
+}
+
+.content
+{
+	margin: 0;
+}
+
+.footer
+{
+	display: none;
+}
+
+a
+{
+	color: black !important;
+}

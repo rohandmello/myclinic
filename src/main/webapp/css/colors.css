@@ -1,0 +1,104 @@
+/* Colors CSS */
+
+body
+{
+	background-color: #BDBDBD;
+	color: #000000;
+}
+
+.header
+{
+	background-color: black;
+	color: #ffffff;
+}
+
+.header a:Link, .header a:Visited
+{
+	color: #ffffff;
+}
+
+#bannerTitle {
+   /* background: none repeat scroll 0 0 transparent*/
+    color: #FFFFFF;
+	text-shadow: -1px -2px 4px #000000,1px 2px 4px #000000,-1px -2px 4px #000000, 1px 2px 4px #000000;
+}
+
+#topNav
+{
+
+	background-color: #FFFFFF;
+}
+
+#topNav a:link, #topNav a:visited 
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+#topNav a:Hover
+{
+    text-shadow: 2px 2px 2px #000;
+    
+    /*color:#ffffff;*/
+}
+
+
+.sbsIFrame
+{
+	background-color: #ffffff;
+
+}
+
+.pageBody
+{
+	background-color: transparent;
+	color: #000000;
+}
+
+.wrapper /* To help DW Design view and Contribute users */
+{
+	background-image: none;
+	background-color: #FFFFFF;
+}
+
+.glinks
+{
+	/*background-image: url("http://csbs.csusb.edu/images/glinksbg.jpg");*/
+	background: #DDDDDD;
+	background-repeat: repeat-y;
+	color: #000000;
+}
+
+
+.footer
+{
+	background-color: black;
+	color: #999999;
+	border-top: 2px solid #999999;
+}
+
+.footer a:Link, .footer a:Visited
+{
+	color: #ffffff;
+}
+
+.h2
+{
+	color: #660000;
+}
+
+a.grey
+{
+	color: #999999;
+}
+
+.important
+{
+	color: #990000;
+}
+
+.message
+{
+	color:#C00;
+}
+
