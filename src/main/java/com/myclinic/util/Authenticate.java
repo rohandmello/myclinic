@@ -18,7 +18,7 @@ public class Authenticate {
   public Authenticate() {
 	// TODO Auto-generated constructor stub
   }
-  
+  /**Any ways this class should not be used as its an internal java class that can change anytime.**/ 
 
   /**
    * Authenticates the user with a given login and password
